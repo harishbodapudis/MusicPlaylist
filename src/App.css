@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0px;
+}
+.singer-box {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  width: 100%;
+  margin: 0px;
+  height: 40vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #ffffff;
+  padding-left: 50px;
+  margin-bottom: 0px;
+}
+.playlist-box {
+  background-color: #152850;
+  margin-top: 0px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-search-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 92%;
+  margin: auto;
+}
+
+.input-box {
+  width: 200px;
+  height: 25px;
+  border: 1px solid #eeeeee;
+  background-color: transparent;
+  outline: none;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.main-container {
+  background-color: #152850;
+}
+
+.searchIcon {
+  color: #ffffff;
+}
+
+.input-field {
+  width: 168px;
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  color: #eeeeee;
+}
+.song-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 98%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.song-details-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 300px;
+}
+.picture {
+  width: 100px;
+  height: 100px;
+}
+.delete-duration {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90px;
+  margin-right: 3%;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.name-genre-details {
+  margin-left: 10px;
+}
+
+.genre {
+  color: #3b82f6;
+}
+
+.delete-btn {
+  border: 0px;
+  background-color: transparent;
+  color: #eeeeee;
+}
+
+.songs-box {
+  height: 45vh;
+  overflow: auto;
+}
+
+.not-found-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+.not-found-text {
+  color: #eeeeee;
+  font-weight: 500;
+}
+.name {
+  font-weight: bold;
+  font-size: 20px;
+}
